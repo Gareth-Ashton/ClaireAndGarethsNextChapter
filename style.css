@@ -33,13 +33,14 @@ body{
 
 
 .heading{
+  font-weight: 300;
   font-size: 35px;
   padding-bottom: 20px;
   text-align: center;
 }
 
 .countdown-container{
-  padding-top: 400px;
+  padding-top: 380px;
   width: 700px;
   align-items: center;
   height: 100vh;
@@ -51,7 +52,15 @@ body{
   text-align: center;
 }
 
+.countdown-container .moving-header{
+  font-weight: 300;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
 .countdown-container .small-header{
+  font-weight: 300;
   text-align: center;
   font-size: 25px;
   padding-bottom: 35px;
