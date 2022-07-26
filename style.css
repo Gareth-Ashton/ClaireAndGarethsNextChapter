@@ -86,7 +86,7 @@ body{
   }
 
   .leaf {
-    z-index: -9999999;
+   
     order: 2;
     width: 430px;
     
@@ -94,7 +94,7 @@ body{
 
   .heading{
     font-weight: 300;
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 35px;
     padding-bottom: 0px;
     text-align: center;
@@ -103,7 +103,7 @@ body{
 
   .countdown-container{
     padding-top: 0px;
-    width: 460px;
+    width: 380px;
     align-items: center;
   }
 
@@ -114,6 +114,7 @@ body{
     text-align: center;
   }
 
+  
   .countdown-container .moving-header{
     font-weight: 300;
     text-align: center;
@@ -131,6 +132,7 @@ body{
 
   .day, .hour, .minute, .second {
     font-size: 1.2rem;
+    
   }
   
 }
