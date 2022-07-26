@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+body{
+  background-color: #f6f6f8;
+}
+
+.main-header{
+  text-align: center;
+ 
+  font-size: 35px;
+}
+
+.main-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  max-width: 100%;
+  height: 100vh;
+  gap: 80px;
+}
+
+.leaf {
+  width: 700px;
+}
+
+
+.heading{
+  font-size: 35px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.countdown-container{
+  padding-top: 400px;
+  width: 700px;
+  align-items: center;
+  height: 100vh;
+}
+
+.countdown-container .countdown{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.countdown-container .small-header{
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 35px;
+}
+
+.day, .hour, .minute, .second {
+  font-size: 2rem;
+}
+
